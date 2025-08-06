@@ -1,0 +1,189 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+body{
+  background-color: #990B0B;
+}
+/*navbar*/
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 26px 56px;
+  width: 100%;
+}
+header a.logo {
+  display: block;
+}
+.logo svg {
+  fill: #e60914;
+  height: 37px;
+}
+
+header .btns {
+  text-align: right;
+}
+
+header a.btn {
+  display: inline-block;
+  background-color: #e60914;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 0px 6px 0px;
+
+  border-radius: 3px;
+}
+header .traduc select{
+    background: transparent;
+    color: #ffffff;
+    padding: 6px 17px;
+    border-radius: 3px;
+}
+header .traduc{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header .traduc svg {
+height: 20px;
+color: #ffffff;
+position: absolute;
+margin-top: 5px;
+margin-left: 4px;
+
+}
+
+/*Texto e imagen de teles*/
+.text{
+  text-align: center;
+  margin-top: 80px;
+  
+}
+
+.text h1{
+  margin: 50px;
+font-size: 3rem;
+font-weight: 800;
+}
+
+.text img{
+  margin: -20px;
+  height: 370px;
+}
+
+.principal{
+  background: linear-gradient(to top, #990B0B 0%, #000000ff 61%);
+}
+
+.solonetflix{
+  background-color: #990B0B;
+}
+.solonetflix h1{
+  text-align: center; 
+ font-size: 3rem;
+  font-weight: 800;
+}
+
+.solonetflix h2{
+text-align: center;
+margin-left: 20px;
+}
+.pelis{
+  display: flex;
+  background-color: #990B0B;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.pelis table  {
+  border: none;
+  
+  text-align: center;
+  margin: 10px;
+}
+
+.Pequeofertas{
+  background-color: #990B0B;
+}
+
+.Pequeofertas h1{
+  text-align: center; 
+  font-size: 3rem;
+   font-weight: 800;
+}
+
+.Pequeofertas h2{
+  text-align: center;
+}
+
+.nenes{
+  display: flex;
+  background-color: #990B0B;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.nenes table {
+  border: none;
+  text-align: center;
+  margin: 10px;
+}
+
+.conte {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  text-align: center;
+  margin: 20px;
+}
+
+.plan {
+  background-color: #a51e19; 
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex: 1 1 20%; 
+  max-width: 50%;
+  height: 450px;
+}
+
+.h2 {
+  font-size: 30px; 
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.t {
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: 16px;
+  text-align: left; 
+  line-height: 21px;
+}
+
+.button {
+  background-color: #741111; 
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h1{
+  text-align: center;
+}
+
+option{
+  background-color: black;
+}
